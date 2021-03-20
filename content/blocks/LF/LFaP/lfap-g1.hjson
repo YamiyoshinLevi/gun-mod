@@ -1,0 +1,30 @@
+{
+type: ItemTurret
+name: LFaP-G1 auto Pistol
+description: LFaP is based on Light Machine Gun. We made a major modification to the weapon : bigger armor, faster shoot speed, sound, etc.
+health: 300
+size: 1
+reloadTime: 4
+shootSound: LFaPShoot1
+range: 200
+ammoUseEffect: casing2
+shots: 2
+rotateSpeed: 30
+ammoTypes: {
+  copper: {
+    speed: 8
+    damage: 10
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 1000000
+  }
+}
+requirements: [
+  copper/80
+  lead/10
+]
+category: turret
+research: lft-2a
+}

@@ -1,0 +1,29 @@
+{
+type: ItemTurret
+name: Light Machine Gun Lv. 3(MAX)
+description: The Max level of Light Machine Gun, can cause more damage. Recommended to use in Ground Zero. (Lv. MAX)
+health: 300
+size: 1
+reloadTime: 5
+shootSound: gunShoot1
+range: 270
+ammoUseEffect: casing2
+shots: 1
+rotateSpeed: 19
+ammoTypes: {
+  copper: {
+    speed: 20
+    damage: 30
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 1000
+  }
+}
+requirements: [
+  copper/80
+]
+category: turret
+research: gun1-2
+}

@@ -1,0 +1,59 @@
+{
+type: ItemTurret
+name: Battleship Main Gun Lv. 1
+description: A Cannon of a warship, can cause big damage. 200mm. (Lv. 1)
+health: 1800
+size: 2
+reloadTime: 200
+shootSound: cannonShoot1
+range: 500
+ammoUseEffect: casing2
+shots: 1
+rotateSpeed: 4
+inaccuracy: 0
+ammoTypes: {
+  he: {
+    speed: 20
+    damage: 560
+    width: 4
+    height: 9
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    lifetime: 10000000
+    hitEffect: blastExplosion
+    splashDamage: 400
+    splashDamageRadius: 45
+  }
+  ap: {
+    speed: 20
+    damage: 720
+    width: 4
+    height: 9
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    lifetime: 10000000
+  }
+  sap: {
+    speed: 20
+    damage: 660
+    width: 4
+    height: 9
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    lifetime: 10000000
+    hitEffect: blastExplosion
+    splashDamage: 580
+    splashDamageRadius: 50
+  }
+}
+requirements: [
+  copper/100
+  lead/60
+  
+]
+category: turret
+research: gun-c2
+}

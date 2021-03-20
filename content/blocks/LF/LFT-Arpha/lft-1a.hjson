@@ -1,0 +1,61 @@
+{
+type: ItemTurret
+name: LFT-1a Turret
+description: The 1st Generation of LFT-a(Levi's Forces Turret-Arpha) series. Has superior firepower and Fire Rate. In order to increase the rotate speed, the barrle is short.
+health: 500
+size: 4
+reloadTime: 7
+shootSound: gunShoot2
+range: 400
+ammoUseEffect: casing2
+shots: 2
+inaccuracy: 5
+outlineIcon: false
+rotateSpeed: 10
+ammoTypes: {
+  copper: {
+    speed: 7
+    damage: 20
+    width: 3
+    height: 20
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 100000
+    ammoMultiplier: 5
+  }
+  graphite: {
+    speed: 10
+    damage: 50
+    width: 5
+    height: 5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 100000
+    homingRange: 76
+    homingPower: 1
+    hitEffect: blastExplosion
+    splashDamage: 14
+    splashDamageRadius: 45
+    ammoMultiplier: 5
+  }
+  lead: {
+    speed: 10
+    damage: 36
+    width: 10
+    height: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 100000
+    homingPower: 1
+    homingRange: 50
+    ammoMultiplier: 5
+  }
+}
+requirements: [    
+  copper/100
+  graphite/10
+  lead/20
+]
+category: turret
+research: hgun2
+}

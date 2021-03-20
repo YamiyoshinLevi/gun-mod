@@ -1,0 +1,6 @@
+type: material
+name: SAP
+description: Semi Armor Piercing
+hardness: 2
+cost: 2
+color: ffffff

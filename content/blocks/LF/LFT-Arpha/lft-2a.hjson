@@ -1,0 +1,70 @@
+{
+type: ItemTurret
+name: LFT-2a Turret
+description: The 2nd Generation of LFT-a(Levi's Forces Turret-Arpha) series. Has superior firepower and Fire Rate. The barrle is long so it have a longer fire range than 1st gen.
+health: 800
+size: 4
+reloadTime: 9
+shootSound: gunShoot2
+range: 1000
+ammoUseEffect: casing2
+shots: 4
+inaccuracy: 5
+outlineIcon: false
+rotateSpeed: 5
+ammoTypes: {
+  copper: {
+    frontColor: ffffff
+    backColor: b30000
+    speed: 7
+    damage: 60
+    width: 3
+    height: 30
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 100000
+    ammoMultiplier: 5
+    knockback: 10
+  }
+  graphite: {
+    frontColor: b30000
+    backColor: b30000
+    speed: 10
+    damage: 55
+    width: 5
+    height: 5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 100000
+    homingRange: 76
+    homingPower: 1
+    hitEffect: blastExplosion
+    splashDamage: 14
+    splashDamageRadius: 45
+    knockback: 10
+    ammoMultiplier: 5
+  }
+  lead: {
+    frontColor: b30000
+    backColor: b30000
+    speed: 10
+    damage: 40
+    width: 10
+    height: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 100000
+    homingPower: 1
+    homingRange: 50
+    ammoMultiplier: 5
+    knockback: 10
+  }
+}
+requirements: [    
+  copper/110
+  graphite/10
+  lead/25
+]
+category: turret
+research: lft-1a
+}

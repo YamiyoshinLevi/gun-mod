@@ -1,0 +1,79 @@
+{
+type: ItemTurret
+name: Battleship Main Gun Lv. 3(MAX)
+description: A Cannon of a warship, can cause big damage. 200mm. (Lv. MAX)
+health: 2300
+size: 2
+reloadTime: 267
+shootSound: cannonShoot1
+range: 809
+ammoUseEffect: casing2
+shots: 1
+rotateSpeed: 1
+inaccuracy: 0
+ammoTypes: {
+  he: {
+    type: MissileBulletType
+    trailColor: FF7400
+    frontColor: FF9300
+    backColor: FFFFFF
+    speed: 14
+    damage: 1138
+    width: 6
+    height: 14
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    lifetime: 10000000
+    hitEffect: blastExplosion
+    splashDamage: 709
+    splashDamageRadius: 100
+    homingRange: 200
+    homingPower: 1
+    hitEffect: blockExplosion
+  }
+  ap: {
+    type: MissileBulletType
+    trailColor: FFFFFF
+    frontColor: DDDDDD
+    backColor: FFFFFF
+    speed: 14
+    damage: 1586
+    width: 6
+    height: 14
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    lifetime: 10000000
+    homingRange: 200
+    homingPower: 1
+  }
+  sap: {
+    type: MissileBulletType
+    trailColor: FFD500
+    frontColor: FFFF00
+    backColor: FFFFFF
+    speed: 14
+    damage: 1324
+    width: 6
+    height: 14
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+    lifetime: 10000000
+    hitEffect: blastExplosion
+    splashDamage: 343
+    splashDamageRadius: 67
+    homingRange: 200
+    homingPower: 1
+    hitEffect: blockExplosion
+  }
+}
+requirements: [
+  copper/130
+  lead/100
+  
+]
+category: turret
+research: cannon_1-2
+}

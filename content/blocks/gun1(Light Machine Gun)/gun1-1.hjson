@@ -1,0 +1,29 @@
+{
+type: ItemTurret
+name: Light Machine Gun Lv. 1
+description: A Basic Machine Gun, limited damage. Recommended to use in Ground Zero. (Lv. 1)
+health: 200
+size: 1
+reloadTime: 8
+shootSound: gunShoot1
+range: 250
+shots: 1
+ammoUseEffect: casing2
+rotateSpeed: 12
+ammoTypes: {
+  copper: {
+    speed: 20
+    damage: 5
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 1000
+  }
+}
+requirements: [    
+  copper/70
+]
+category: turret
+research: duo
+}

@@ -1,0 +1,91 @@
+{
+type: LiquidTurret
+name: (Beta)LFSR-3a(Special) Slag Sniper Rifle 
+description: (!Beta Weapon!)The 3rd Generation of LFT-a(Levi's Forces Sniper Rifle-Arpha) series. Also is the special Generation...Let's hit the F**king enemies from long range with SLAG!!!!!! Wryyyyyyyy!!!!!!!! (Oh also u can shoot water, oil or cryofluid...).
+health: 250
+targetAir: true
+targetGround: true
+size: 1
+range: 700
+reloadTime: 0
+ammoUseEffect: none
+shootEffect: shootLiquid
+rotateSpeed: 10
+recoilAmount: 0
+shots: 1
+alternate: true
+inaccuracy: 0
+spread: 16
+ammoTypes: {
+  water: {
+    type: liquidBulletType
+    liquid: water
+    lifetime: 1000
+    speed: 6
+    knockback: 17.5
+    puddleSize: 20
+    orbSize: 3
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 12
+    damage: 1
+    homingRange: 1000
+    homingPower: 0.5
+  }
+  slag: {
+    type: liquidBulletType
+    liquid: slag
+    lifetime: 1000
+    speed: 6
+    knockback: 4
+    puddleSize: 20
+    orbSize: 3
+    damage: 20
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 120
+    status: melting
+    homingRange: 1000
+    homingPower: 0.5
+  }
+  oil: {
+    type: liquidBulletType
+    liquid: oil
+    lifetime: 1000
+    speed: 6
+    knockback: 3.4
+    orbSize: 3
+    puddleSize: 20
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 120
+    damage: 5
+    status: tarred
+    homingRange: 1000
+    homingPower: 0.5
+  }
+  cryofluid: {
+    type: liquidBulletType
+    liquid: cryofluid
+    lifetime: 1000
+    speed: 6
+    knockback: 4
+    puddleSize: 20
+    orbSize: 3
+    drag: 0.002
+    ammoMultiplier: 4
+    statusDuration: 120
+    damage: 18
+    status: freezing
+    homingRange: 1000
+    homingPower: 0.5
+  }
+}
+requirements: [    
+  copper/80
+  graphite/15
+  silicon/5
+]
+category: turret
+research: lfsr-2a
+}

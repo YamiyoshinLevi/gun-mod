@@ -1,0 +1,23 @@
+type: GenericSmelter
+name: HE Maker
+description: Makes HE
+size: 2
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      copper/2
+      lead/1
+    ]
+  }
+}
+requirements: [
+  copper/10
+]
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: he/1

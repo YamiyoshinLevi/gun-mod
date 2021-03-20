@@ -1,0 +1,23 @@
+type: GenericSmelter
+name: SAP Maker
+description: Makes SAP
+size: 2
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      copper/3
+      lead/2
+    ]
+  }
+}
+requirements: [
+  copper/10
+]
+category: crafting
+research: ap-maker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: sap/1

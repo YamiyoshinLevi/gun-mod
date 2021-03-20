@@ -1,0 +1,22 @@
+type: GenericSmelter
+name: AP Maker
+description: Makes AP
+size: 2
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      copper/3
+    ]
+  }
+}
+requirements: [
+  copper/10
+]
+category: crafting
+research: he-maker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: ap/1

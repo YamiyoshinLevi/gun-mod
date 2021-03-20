@@ -1,0 +1,56 @@
+{
+type: ItemTurret
+name: LFSR-1a Sniper Rifle
+description: The 1st Generation of LFSR-a(Levi's Forces Sniper Rifle-Arpha) series. Has superior firepower and range. 
+health: 400
+size: 3
+reloadTime: 30
+shootSound: gunShoot3
+range: 700
+shots: 1
+outlineIcon: false
+ammoUseEffect: casing2
+rotateSpeed: 4
+ammoTypes: {
+  copper: {
+    speed: 300
+    damage: 150
+    width: 3
+    height: 20
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 100000
+  }
+  graphite: {
+    speed: 5
+    damage: 500
+    width: 5
+    height: 5
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 100000
+    homingRange: 76
+    homingPower: 1
+    hitEffect: blastExplosion
+    splashDamage: 14
+    splashDamageRadius: 45
+  }
+  lead: {
+    speed: 5
+    damage: 405
+    width: 10
+    height: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 100000
+    homingPower: 1
+    homingRange: 50
+  }
+}
+requirements: [    
+  copper/70
+  graphite/10
+]
+category: turret
+research: gun1-2
+}

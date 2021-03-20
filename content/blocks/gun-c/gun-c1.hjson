@@ -1,0 +1,31 @@
+type: ItemTurret
+name: Machine Cannon Lv. 1
+description: A Machine Cannon, can cause big damage. Recommended to use in Ground Zero. 50mm. (Lv. 1)
+health: 500
+shootSound: gunShoot4
+size: 2
+reloadTime: 15
+range: 335
+shootCone: 2
+ammoUseEffect: casing2
+shots: 2
+rotatespeed: 13
+ammoTypes: {
+  copper: {
+    speed: 20
+    damage: 80
+    width: 4
+    height: 9
+    shootEffect: shootBig
+    shootSound: shootBig
+    smokeEffect: shootBigSmoke
+    lifetime: 10000
+  }
+}
+requirements: [
+  copper/75
+  lead/10
+  
+]
+category: turret
+research: hgun2
