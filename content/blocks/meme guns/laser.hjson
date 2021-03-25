@@ -1,6 +1,6 @@
 {
 name: Particle Accelerator Turret
-description: Decompose the metal, accelerate the partical to close to the speed of light within 0.1 seconds, and then fire from the muzzle. The whole process only takes 0.25 seconds. Cost 180 unit of power per second.
+description: Decompose the metal, accelerate the partical to close to the speed of light within 0.1 seconds, and then fire from the muzzle. The whole process only takes 0.25 seconds.
 type: ItemTurret
 reloadTime: 15
 shots: 1
