@@ -18,6 +18,4 @@ requirements: [
 ]
 category: crafting
 research: mechanical-drill
-idleSound: respawning
-idleSoundVolume: 0.5
 outputItem: he/1

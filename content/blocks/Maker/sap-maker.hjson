@@ -18,6 +18,4 @@ requirements: [
 ]
 category: crafting
 research: ap-maker
-idleSound: respawning
-idleSoundVolume: 0.5
 outputItem: sap/1

@@ -1,0 +1,31 @@
+{
+type: ItemTurret
+name: BRUH gun
+description: idea by noeearth_dragon2#0328. A gun that speech BRUH per shoot.
+health: 250
+size: 1
+reloadTime: 7
+shootSound: bruhGun
+range: 100
+outlineIcon: false
+shots: 1
+ammoUseEffect: casing2
+rotateSpeed: 13
+ammoTypes: {
+  memeium: {
+    speed: 10
+    damage: 13
+    width: 10
+    height: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 1000
+  }
+}
+requirements: [    
+  memeium/40
+  copper/10
+]
+category: turret
+research: duo
+}

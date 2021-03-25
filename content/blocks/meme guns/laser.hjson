@@ -1,0 +1,63 @@
+{
+name: Particle Accelerator Turret
+description: Decompose the metal, accelerate the partical to close to the speed of light within 0.1 seconds, and then fire from the muzzle. The whole process only takes 0.25 seconds. Cost 180 unit of power per second.
+type: ItemTurret
+reloadTime: 15
+shots: 1
+burstSpacing: 3
+inaccuracy: 0.2
+shootSound: laserShoot1
+range: 500
+size: 3
+outlineIcon: false
+health: 2500
+ammoTypes: {
+  memeium: {
+   type: LaserBulletType
+    length: 2000
+    damage: 9999
+    width: 15
+    lifetime: 60
+    lightningSpacing: 40
+    lightningLength: 12
+    lightningDelay: 1.0
+    lightningLengthRand: 21
+    lightningDamage: 65
+    lightningAngleRand: 30
+    largeHit: true
+    shootEffect: greenLaserCharge
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
+    colors: [ffffff, cccccc, 8e8e8e]
+  }
+  copper: {
+   type: LaserBulletType
+    length: 2000
+    damage: 1000
+    width: 10
+    lifetime: 50
+    lightningSpacing: 10
+    lightningLength: 15
+    lightningDelay: 1.0
+    lightningLengthRand: 7
+    lightningDamage: 178
+    lightningAngleRand: 7
+    largeHit: true
+    shootEffect: greenLaserCharge
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 15
+    sideLength: 15
+    colors: [ffffff, 878787, cb9e00]
+  }
+}
+research: lft-2a
+category: turret
+requirements: [
+memeium/127
+copper/10
+lead/50
+]
+}

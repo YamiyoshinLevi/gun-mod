@@ -17,6 +17,4 @@ requirements: [
 ]
 category: crafting
 research: he-maker
-idleSound: respawning
-idleSoundVolume: 0.5
 outputItem: ap/1

@@ -1,0 +1,27 @@
+{
+type: GenericSmelter
+name: Memeium Maker
+description: Makes Memeium
+size: 3
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      copper/2
+    ]
+  }
+  liquid: {
+    liquid: ink
+    amount: 0.1
+  }
+}
+requirements: [
+  copper/50
+  lead/20
+]
+category: crafting
+research: ink-maker
+outputItem: memeium/2
+}

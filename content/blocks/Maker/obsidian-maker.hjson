@@ -1,0 +1,31 @@
+{
+type: GenericSmelter
+name: Obsidian Maker
+description: Makes Obsidian with SiO2(Silicon dioxide) and H2O(Water)
+size: 2
+hasItems: true
+hasLiquids: true
+hasPower: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+  items: {
+    items: [
+      silicon/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.05
+  }
+}
+requirements: [
+  copper/40
+  lead/30
+  memeium/10
+]
+category: crafting
+research: memeium-maker
+outputItem: obsidian/3
+}

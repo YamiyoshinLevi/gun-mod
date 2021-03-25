@@ -1,0 +1,29 @@
+{
+name: Obsidian Drill
+description: A fast drill, cost power.
+type: Drill
+health: 500
+size: 2
+liquidCapacity: 10
+baseExplosiveness: 10
+rotateSpeed: 3.5
+hasPower: true
+updateEffect: oily
+updateEffectChance: 0.04
+pumpAmount: 1.0
+attribute: oil
+result: oil
+boostScale: 0.5
+tier: 5
+drillTime: 280
+consumes: {
+  power: 0.1
+}
+requirements: [
+  obsidian/45
+  memeium/25
+  copper/5
+]
+category: production
+research: pneumatic-drill
+}
