@@ -1,0 +1,12 @@
+type: Wall
+localizedName: Lead Wall
+description: Lead Wall, stronger than Copper Wall.
+health: 400
+size: 1
+chanceDeflect: 0.1
+lightningChance: 0.1
+requirements: [
+  lead/1
+  ]
+category: defense
+research: copper-wall

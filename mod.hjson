@@ -3,6 +3,6 @@ name: "gun-mod"
 displayName: "[orange]Gun[gold] Mod" //what displays in the mod selection menu
 author: "Yamiyoshin Levi and Shirawa Kogetsu"
 description: "A mod that added some cool new blocks. https://levi-mindustry-mods-download.webnode.tw/gun-mod/"
-version: "2.3.0.2"
+version: "2.3.1"
 minGameVersion: "125"
 }

@@ -1,0 +1,25 @@
+{
+type: GenericSmelter
+name: Plutonium Finder
+description: Find Plutonium from Thorium.
+size: 2
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      thorium/1
+    ]
+  }
+}
+requirements: [
+  memeium/100
+  lead/90
+  copper/200
+  thorium/40
+]
+category: crafting
+research: obsidian-maker
+outputItem: apop/1
+}
