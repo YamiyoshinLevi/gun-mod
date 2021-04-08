@@ -7,6 +7,6 @@ Gun Mod, which added some cool blocks into game to defense enemies. Mod made by 
 
 白輪こげつ: 白輪こげつ#8607
 
-闇しミチヨ: (She don't want to show up the id now)
+闇しミチヨ: 闇しミチヨ#1492
 
 noeearth_dragon2: noeearth_dragon2#0328
