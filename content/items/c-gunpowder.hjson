@@ -1,0 +1,7 @@
+name: Compressed Gunpowder
+description: Very High Explosive and Unstable.
+hardness: 1
+cost: 2
+color: ffffff
+explosiveness: 5.0f
+flammability: 2.5f

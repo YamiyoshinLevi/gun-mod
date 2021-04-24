@@ -1,0 +1,17 @@
+localizedName: Memeium Wal Large
+description:  memeium wall
+type: Wall
+health: 8000
+size: 4
+lightningChance: 0.3
+lightningDamage: 60
+lightningLength: 20
+lightningColor: 000000
+absorbLasers: true
+buildCostMultiplier: 0.55
+requirements: [
+  memeium/24
+  obsidian/40
+]
+category: defense
+research: Large Thorium Wall

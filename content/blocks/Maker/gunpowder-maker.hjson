@@ -1,0 +1,23 @@
+{
+type: GenericSmelter
+name: Gunpowder Mixer
+description: Mix pulverized [cyan]Coal [white]to make stable [cyan]Gunpowder [white].
+size: 2
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      coal/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/20
+]
+category: crafting
+research: he-maker
+outputItem: gunpowder/5
+}

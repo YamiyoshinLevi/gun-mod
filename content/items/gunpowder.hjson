@@ -1,0 +1,7 @@
+name: Gunpowder
+description: High Explosive! Be Careful.. HEY! DONT BURN IT U IDIOT!!!!!
+hardness: 1
+cost: 2
+color: ffffff
+explosiveness: 2.0f
+flammability: 1.5f

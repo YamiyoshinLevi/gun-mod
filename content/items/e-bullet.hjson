@@ -1,0 +1,7 @@
+name: Universal explosive Bullet
+description: Can use in many guns.
+hardness: 1
+cost: 2
+color: ffffff
+explosiveness: 5.0f
+flammability: 2.5f
