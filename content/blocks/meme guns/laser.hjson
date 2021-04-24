@@ -71,6 +71,7 @@ ammoTypes: {
     sideWidth: 15
     sideLength: 15
     colors: [ffffff, 878787, cb9e00]
+  }
 }
 research: lft-2a
 category: turret
