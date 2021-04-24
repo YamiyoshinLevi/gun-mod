@@ -1,17 +1,15 @@
 localizedName: Memeium Wall
 description:  memeium wall
 type: Wall
-health: 2000
+health: 1000
 size: 1
+chanceDeflect: 0.5
 lightningChance: 0.3
 lightningDamage: 60
 lightningLength: 20
 lightningColor: 000000
-absorbLasers: true
-buildCostMultiplier: 0.55
 requirements: [
-  memeium/6
-  obsidian/10
+  memeium/1
 ]
 category: defense
-research: Large Thorium Wall
+research: lead-wall

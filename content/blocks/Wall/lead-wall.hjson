@@ -4,7 +4,10 @@ description: Lead Wall, stronger than Copper Wall.
 health: 400
 size: 1
 chanceDeflect: 0.1
-lightningChance: 0.1
+lightningChance: 0.2
+lightningDamage: 60
+lightningLength: 20
+lightningColor: ff0000
 requirements: [
   lead/1
   ]

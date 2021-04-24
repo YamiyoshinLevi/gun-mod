@@ -5,6 +5,9 @@ chanceDeflect: 0.5
 health: 1600
 size: 2
 lightningChance: 0.2
+lightningDamage: 60
+lightningLength: 20
+lightningColor: ff0000
 requirements: [
   lead/4
   ]

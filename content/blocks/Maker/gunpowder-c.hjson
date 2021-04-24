@@ -1,7 +1,7 @@
 {
 type: GenericSmelter
 name: Gunpowder Compressor
-description: Compress [cyan]Gunpowder [white]into [cyan]Compressed Gunpowder [white]. Be careful cuz it is unstable.
+description: Compress Gunpowder into Compressed Gunpowder. Be careful cuz it is unstable.
 size: 2
 hasItems: true
 craftTime: 30

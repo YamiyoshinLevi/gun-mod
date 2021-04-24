@@ -1,7 +1,7 @@
 {
 type: GenericSmelter
 name: explosive Bullet Crafter
-description: Makes [cyan]Universal explosive Bullet [white]. Bullet Body by [cyan]Copper [white], fill [cyan]Gunpowder [white]into bullet case to shoot. Fill [cyan]Universal explosive Bullet [white]into the hollow warhead to make sure it can makes big explode damage.
+description: Makes Universal explosive Bullet. Bullet Body by Copper, fill Gunpowder into bullet case to shoot. Fill Compressed Gunpowder into the hollow warhead to make sure it can makes big explode damage.
 size: 2
 hasItems: true
 craftTime: 30

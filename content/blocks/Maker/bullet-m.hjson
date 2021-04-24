@@ -1,7 +1,7 @@
 {
 type: GenericSmelter
 name: Bullet Crafter
-description: Makes [cyan]Universal Bullet [white].
+description: Makes Universal Bullet.
 size: 2
 hasItems: true
 craftTime: 30

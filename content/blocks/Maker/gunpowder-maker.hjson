@@ -1,7 +1,7 @@
 {
 type: GenericSmelter
 name: Gunpowder Mixer
-description: Mix pulverized [cyan]Coal [white]to make stable [cyan]Gunpowder [white].
+description: Mix pulverized Coal to make stable Gunpowder.
 size: 2
 hasItems: true
 craftTime: 60
