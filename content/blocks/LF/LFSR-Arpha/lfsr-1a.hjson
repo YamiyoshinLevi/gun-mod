@@ -13,7 +13,7 @@ ammoUseEffect: casing2
 rotateSpeed: 4
 ammoTypes: {
   copper: {
-    speed: 300
+    speed: 20
     damage: 150
     width: 3
     height: 20
@@ -22,7 +22,7 @@ ammoTypes: {
     lifetime: 100000
   }
   graphite: {
-    speed: 5
+    speed: 10
     damage: 500
     width: 5
     height: 5
@@ -36,7 +36,7 @@ ammoTypes: {
     splashDamageRadius: 45
   }
   lead: {
-    speed: 5
+    speed: 10
     damage: 405
     width: 10
     height: 10
@@ -45,6 +45,30 @@ ammoTypes: {
     lifetime: 100000
     homingPower: 1
     homingRange: 50
+  }
+  bullet: {
+    speed: 20
+    damage: 420
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 10000
+    homingRange: 76
+    homingPower: 1
+  }
+  e-bullet: {
+    speed: 20
+    damage: 690
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 10000
+    splashDamage: 20
+    splashDamageRadius: 50
+    homingRange: 76
+    homingPower: 1
   }
 }
 requirements: [    

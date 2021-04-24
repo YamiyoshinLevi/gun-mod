@@ -50,6 +50,26 @@ ammoTypes: {
     homingRange: 50
     ammoMultiplier: 5
   }
+  bullet: {
+    speed: 20
+    damage: 100
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 10000
+  }
+  e-bullet: {
+    speed: 20
+    damage: 120
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 10000
+    splashDamage: 20
+    splashDamageRadius: 50
+  }
 }
 requirements: [    
   copper/100

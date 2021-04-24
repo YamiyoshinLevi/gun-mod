@@ -51,6 +51,30 @@ ammoTypes: {
     homingPower: 1
     homingRange: 45
   }
+  bullet: {
+    speed: 20
+    damage: 420
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 10000
+    homingRange: 1000
+    homingPower: 0.2
+  }
+  e-bullet: {
+    speed: 20
+    damage: 690
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 10000
+    splashDamage: 20
+    splashDamageRadius: 50
+    homingRange: 1000
+    homingPower: 0.2
+  }
 }
 requirements: [    
   copper/80

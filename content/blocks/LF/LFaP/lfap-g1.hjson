@@ -20,6 +20,26 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     lifetime: 1000000
   }
+  bullet: {
+    speed: 20
+    damage: 50
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 10000
+  }
+  e-bullet: {
+    speed: 20
+    damage: 70
+    width: 2
+    height: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    lifetime: 10000
+    splashDamage: 60
+    splashDamageRadius: 100
+  }
 }
 requirements: [
   copper/80
