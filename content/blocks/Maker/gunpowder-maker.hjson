@@ -20,4 +20,7 @@ requirements: [
 category: crafting
 research: he-maker
 outputItem: gunpowder/5
+results: [
+  gunpowder/5
+]
 }
