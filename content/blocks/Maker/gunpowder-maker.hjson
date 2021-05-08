@@ -1,5 +1,5 @@
 {
-type: Separator
+type: GenericCrafter
 name: Gunpowder Mixer
 description: Mix pulverized Coal to make stable Gunpowder.
 size: 2
@@ -20,7 +20,4 @@ requirements: [
 category: crafting
 research: he-maker
 outputItem: gunpowder/5
-results: [
-  gunpowder/5
-]
 }
