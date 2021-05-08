@@ -20,4 +20,5 @@ requirements: [
 category: crafting
 research: he-maker
 outputItem: gunpowder/5
+drawer: drawRotator
 }
