@@ -1,5 +1,5 @@
 {
-type: GenericSmelter
+type: GenericCrafter
 name: Gunpowder Compressor
 description: Compress Gunpowder into Compressed Gunpowder. Be careful cuz it is unstable.
 size: 2

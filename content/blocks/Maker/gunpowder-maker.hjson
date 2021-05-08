@@ -1,5 +1,5 @@
 {
-type: GenericSmelter
+type: Separator
 name: Gunpowder Mixer
 description: Mix pulverized Coal to make stable Gunpowder.
 size: 2
