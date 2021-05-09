@@ -1,7 +1,7 @@
 {
-name: "gun-mod"
-displayName: "GunneryUnlimited" //what displays in the mod selection menu
-author: "Darkness Tech Mods"
+name: "GunneryUnlimited"
+displayName: "GunneryUnlimited"
+author: "The gang of a dumpster fire"
 description: "A mod that added some cool new blocks. https://levi-mindustry-mods-download.webnode.tw/gun-mod/"
 version: "2.3.1"
 minGameVersion: "125"
