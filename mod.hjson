@@ -1,7 +1,7 @@
 {
-name: "GunneryUnlimited"
+name: "gun-mod"
 displayName: "GunneryUnlimited"
-author: "The gang of a dumpster fire"
+author: "Darknes Tech Mods inc."
 description: "A mod that added some cool new blocks. https://levi-mindustry-mods-download.webnode.tw/gun-mod/"
 version: "2.3.1"
 minGameVersion: "125"
