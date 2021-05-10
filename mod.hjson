@@ -3,6 +3,6 @@ name: "gun-mod"
 displayName: "GunneryUnlimited"
 author: "Darknes Tech Mods inc."
 description: "A mod that added some cool new blocks. https://levi-mindustry-mods-download.webnode.tw/gun-mod/"
-version: "2.3.1"
+version: "2.3.2"
 minGameVersion: "125"
 }
