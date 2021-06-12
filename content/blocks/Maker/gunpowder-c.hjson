@@ -20,5 +20,5 @@ requirements: [
 category: crafting
 research: gunpowder-maker
 outputItem: c-gunpowder/2
-drawer: drawAnimation
+drawer: drawRotator
 }
